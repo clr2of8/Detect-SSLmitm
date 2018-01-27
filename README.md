@@ -2,7 +2,7 @@
 
 This PowerShell script will determine if your connection to external servers over HTTPS is being decrypted by an intercepting proxy such as the internet proxies commonly found in corporate environments. It does this by comparing the SSL intermediate certificate being used for your connection to the true/known SSL certificate for the server.
 
-Kudos to [@malcomvetter](https://twitter.com/malcomvetter) for the idea to write this script and for some improvement tips.
+Kudos to [@malcomvetter](https://twitter.com/malcomvetter) for the idea to write this script and for some improvement tips. For example, comparing the intermediate certificate to reduce false positives.
 
 ## Usage
 
